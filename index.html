@@ -37,114 +37,362 @@
 
         <!-- BOXES -->
         <article>
+            <section class="wide-container" id="act">
+                <h2>action.</h2><section class="widesteps">
 
-            <!-- WIDE ACTION BOX -->
-        <section class="wide-container" id="act">
+                    <p class="actionblock-wide"><span class="action">Longbow Atk.</span><br>
+                        As an action, you can attack a target with up to two shots of your longbow, dealing <span class="dmgdie">1d8 damage</span>.
+                        <br><br><span class="actdet">Empowerment:</span> <span class="dmgdie"><a href="#uncannyaffliction">Uncanny Affliction</a></span><br>
+                                <span class="actdet">Damage:</span> <span class="dmgdie">1d8</span><br>
+                                <span class="actdet">Dmg Type:</span> Piercing <br>
+                                <span class="actdet">Properties:</span> Ammunition , Heavy , Range , 2-Handed  <br>
+                                <span class="actdet">Range:</span> 150/600 <br>
+                        <br><span class="empow">Dreadful Strikes</span> <span class="subsource">Fey Wanderer 3</span><br>
+                        You can augment your weapon strikes with mind-scarring magic, drawn from the gloomy hollows of the Feywild. 
+                        When you hit a creature with a weapon, you can deal an extra <span class="dmgdie">1d4 psychic damage</span> 
+                        to the target, which can take this extra damage only once per turn.<br><br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;<span class="upcast">When you reach 11th level in this class,</span> the extra damage increases 
+                        to <span class="dmgdie">1d6</span>.</span>
+                        <br><br><span class="source">Source: PHB p149.</span></p>
+
+                  <p class="actionblock-wide"><span class="action">Quarterstaff Atk.</span><br>
+                        As an action, you can attack a target with up to two strikes of your quarterstaff, dealing <span class="dmgdie"> 1d6 or 1d8 damage</span>.
+                        <br><br><span class="actdet">Damage:</span> 1-Hand <span class="dmgdie">1d6</span>&nbsp; / &nbsp;2-Hand <span class="dmgdie">1d8</span><br>
+                                <span class="actdet">Dmg Type:</span> Bludgeoning <br>
+                                <span class="actdet">Properties:</span> Versatile  <br>
+                        <br><span class="empow">Shillelagh Strike</span> <span class="subsource">OneDND</span><br>
+                        You brandish the club or quarterstaff used in the spell’s casting and make a melee attack with it against one creature within 5 feet of you. 
+                        You can use your spellcasting ability instead of Strength for the attack roll. On a hit, the target takes bludgeoning damage equal to 1d8 + your 
+                        spellcasting ability modifier, instead of the weapon's normal damage.<br><br>
+                        <span class="upcast">This spell’s damage increases when you reach certain levels.</span><br>Roll one additional damage die (d8) on a hit when you reach 
+                        <span class="skill">5th level (2d8)</span>, <span class="skill">11th level (3d8)</span>, <br>and <span class="skill">17th level (4d8)</span>.<br><br>
+                        
+                        <span class="spelldet">Level:</span> Cantrip<br>
+                        <span class="spelldet">Casting time:</span> 1 Action<br>
+                        <span class="spelldet">Range</span> Self (5 ft sphere)<br>
+                        <span class="spelldet">Duration:</span> Instantaneous<br>
+                        <span class="spelldet">Components:</span> V, S, M<br>(mistletoe, a shamrock leaf, and a club or quarterstaff)<br><br>
+
+                        <br><span class="empow">Dreadful Strikes</span> <span class="subsource">Fey Wanderer 3</span><br>
+                        You can augment your weapon strikes with mind-scarring magic, drawn from the gloomy hollows of the Feywild. 
+                        When you hit a creature with a weapon, you can deal an extra <span class="dmgdie">1d4 psychic damage</span> 
+                        to the target, which can take this extra damage only once per turn.<br><br>
+
+                        &nbsp;&nbsp;&nbsp;&nbsp;<span class="upcast">When you reach 11th level in this class,</span> the extra damage increases 
+                        to <span class="dmgdie">1d6</span>.
+                        <br><br><span class="source">Source: PHB p149.</span></p>
+
+                    <p class="actionblock-wide"><span class="action" id="uncannyaffliction">Uncanny Affliction</span> <span class="source">Fey Wanderer 6 (HB)</span><br>
+                        When you take the attack action, you may <span class="dmgdie">choose to replace one weapon attack</span> in exchange for inflicting 
+                        one of the following effects against a target.
+                        <br><br>
+                        <span class="skill">Brightened.</span>The target must make an Intelligence saving throw. On a failure, the target has 
+                                    disadvantage on ranged attacks until the start of your next turn as shimmering sparks float through its 
+                                    field of view.<br>
+                        <span class="skill">Flipped Vision.</span>The target has disadvantage on Acrobatics and Athletics checks and Dexterity saving 
+                                    throws until the start of your next turn as its world appears to be turned upside down
+                                    <br>
+                         <span class="skill">Monochrome.</span>The target must make an Intelligence saving throw. On a failure, the target has 
+                                    disadvantage on Wisdom (Perception) checks and Wisdom saving throws until the start of your next 
+                                    turn as its vision appears as if through colored glass.<br>
+                        <span class="skill">Mind Fog.</span>The target must make an Intelligence saving throw. On a failure, the target has 
+                                    disadvantage on its next attack roll as it finds itself unable to focus or concentrate on its actions
+                                <br><br><span class="source">Source: Fey Wanderer Homebrew.</span></p>
+                        
+
+
+                    <p class="actionblock-wide"><span class="action">Cast a Spell</span><br>
+                        Spellcasters such as wizards and clerics, as well as many monsters, have access to spells and can use them to great effect 
+                        in combat. Each spell has a casting time, which specifies whether the caster must use an action, a reaction, minutes, or even 
+                        hours to cast the spell. <span class="dmgdie">Casting a spell is, therefore, not necessarily an action.</span> Most spells do have a casting time of 1 action, 
+                        so a spellcaster often uses his or her action in combat to cast such a spell.
+                        <br><br><span class="actdet">Cantrip:</span> Free<br>
+                                <span class="actdet"><label for="first">First:</label></span> <input type="checkbox" id="first" name="first"><input type="checkbox" id="first" name="first"><input type="checkbox" id="first" name="first"><input type="checkbox" id="first" name="first"> <br>
+                                <span class="actdet"><label for="second">Second:</label></span> <input type="checkbox" id="second" name="second"><input type="checkbox" id="second" name="second"><input type="checkbox" id="second" name="second"> <br>
+                                <span class="actdet"><label for="third">Third:</label></span> <input type="checkbox" id="third" name="third"><input type="checkbox" id="third" name="third"> <br>
+                        <br><br><span class="source">Source: PHB, page 192.   </span></p>
+
+                    <p class="actionblock-wide"><span class="action">Flicker</span> <span class="source">Void Lore</span><br>
+                            As an action on your turn, make a lore check. On a success, you teleport to an empty space behind a creature you can 
+                            see within 30 feet. As part of this action, you may make one attack roll against the creature with advantage.<br><br> 
+                        <span class="cost">Cost:</span> 1 stress</span></p>
+            
+                    <p class="actionblock"><span class="action">attack</span><br> 
+                        The most common action to take in combat is the Attack action, 
+                        whether you are swinging a sword, firing an arrow from a bow,
+                        or brawling with your fists.
+                        <br><br><span class="source">Source: PHB, page 192.   </span></p>
+
+                    <p class="actionblock"><span class="action">disengage</span><br>
+                        If you take the Disengage action, your movement doesn't provoke opportunity attacks 
+                        for the rest of the turn. 
+                        <br><br><span class="source">Source: PHB, page 192.   </span></p>
+                        
+                    <p class="actionblock"><span class="action">dodge</span><br>
+                        When you take the Dodge action, you focus entirely on avoiding attacks. 
+                        Until the start of your next turn, any attack roll made against 
+                        you has disadvantage if you can see the attacker, and you make <span class="skill">Dexterity Saving Throws</span> 
+                        with advantage. You lose this benefit if you are incapacitated (as explained in 
+                        the appendix) or if your speed drops to 0.
+                        <br><br><span class="source">Source: PHB, page 192.   </span></p>
+            
+                    <p class="actionblock"><span class="action">dash</span><br>
+                        When you take the Dash action, you gain extra movement for the current turn. The increase equals 
+                        your speed, after applying any modifiers. With a speed of 30 feet, for example, you can move up 
+                        to 60 feet on your turn if you dash. Any increase or decrease to your speed changes this additional 
+                        movement by the same amount. If your speed of 30 feet is reduced to 15 feet, for instance, you can move 
+                        up to 30 feet this turn if you dash. 
+                        <br><br><span class="source">Source: PHB, page 192.   </span></p>
+            
+                    <p class="actionblock"><span class="action">hide</span><br>
+                        When you take the Hide action, you make a <span class="skill">Dexterity (Stealth)</span> check in an 
+                        attempt to hide, following the rules in chapter 7 for hiding. If you succeed, you gain certain benefits, 
+                        as described in the "Unseen Attackers and Targets" section in the Player's Handbook. 
+                        <br><br><span class="source">Source: PHB, page 192.   </span></p>
+            
+                    <p class="actionblock"><span class="action">disarm</span><br> 
+                        A creature can use a weapon attack to knock a weapon or another item from a target's grasp. The attacker 
+                        makes an attack roll contested by the target's  <span class="skill">Strength</span> (Athletics) check or 
+                        <span class="skill">Dexterity (Acrobatics)</span> check. If the attacker wins the contest, the attack causes 
+                        no damage or other ill effect, but the defender drops the item. The attacker has disadvantage on its attack 
+                        roll if the target is holding the item with two or more hands. The target has advantage on its ability check 
+                        if it is larger than the attacking creature, or disadvantage if it is smaller.
+                        <br><br><span class="source">Source: PHB, page 192.   </span></p>  
+                                
+                    <p class="actionblock"><span class="action">help</span><br> 
+                        You can lend your aid to another creature in the completion of a task. When you take the Help action, the creature 
+                        you aid gains advantage on the next ability check it makes to perform the task you are helping with, provided that 
+                        it makes the check before the start of your next turn.<br><br>
+                        Alternatively, you can aid a friendly creature in attacking a creature within 5 feet of you. You feint, distract the 
+                        target, or in some other way team up to make your ally's attack more effective. If your ally attacks the target before 
+                        your next turn, the first attack roll is made with advantage.
+                        <br><br><span class="source">Source: PHB, page 192.   </span></p>            
+                        
+                    <p class="actionblock"><span class="action">shove</span><br> 
+                        Using the Attack action, you can make a special melee attack to shove a creature, either to knock it prone or push it 
+                        away from you. If you're able to make multiple attacks with the Attack action, this attack replaces one of them.<br><br>
+                        The target of your shove must be no more than one size larger than you, and it must be within your reach. You make a  
+                        <span class="skill">Strength (Athletics)</span> check contested by the target's  <span class="skill">Strength (Athletics)</span> 
+                        or <span class="skill">Dexterity (Acrobatics)</span> check (the target chooses the ability to use). You succeed automatically if 
+                        the target is incapacitated. If you succeed, you either knock the target prone or push it 5 feet away from you.
+                        <br><br><span class="source">Source: PHB, page 195.   </span></p>
+                        
+                    <p class="actionblock"><span class="action">grapple</span><br> 
+                        When you want to grab a creature or wrestle with it, you can use the Attack action to make a special melee attack, a grapple. If 
+                        you're able to make multiple attacks with the Attack action, this attack replaces one of them. The target of your grapple must be 
+                        no more than one size larger than you, and it must be within your reach.<br><br>
+                        Using at least one free hand, you try to seize the target by making a grapple check, a  <span class="skill">Strength (Athletics)</span> 
+                        check contested by the target's  <span class="skill">Strength (Athletics)</span> or <span class="skill">Dexterity (Acrobatics)</span> 
+                        check (the target chooses the ability to use). You succeed automatically if the target is incapacitated. If you succeed, you subject 
+                        the target to the grappledcondition (see the appendix). The condition specifies the things that end it, and you can release the target 
+                        whenever you like (no action required).
+                        <br><br><span class="source">Source: PHB, page 192.   </span></p>   
+            
+                    <p class="actionblock"><span class="action">stabilize</span><br> 
+                        You can use your action to administer first aid to an unconscious creature and attempt to stabilize it, which requires a successful 
+                        <span class="skill">DC 10 Wisdom (Medicine)</span> check.<br><br>
+                        A stable creature doesn't make death saving throws, even though it has 0 hit points, but it does remain unconscious. The creature stops 
+                        being stable, and must start making death  saving throws again, if it takes any damage. A stable creature that isn't healed regains 
+                        1 hit point after 1d4 hours.
+                        <br><br><span class="source">Source: PHB, page 192.   </span></p>   
+                             
+            
+                    </section>
+            </section>
+
+         <!-- CLASS/BONUS/REACT BOXES -->     
+         <section class="bonre">
+         <section class="container" id="bonus">
+            <h2>bonus.</h2>
+            <section class="steps">
+                <p class="bonreact"> <span class="action">misty step</span> <span class="source">Fey Wanderer 3</span><br> Briefly surrounded by silvery mist, you teleport up to 30 feet to an unoccupied space that you can see. <br>
+                    <br><span class="cost">Cost:</span> <label for="misty">Per Day :
+                    <input type="checkbox" id="misty" name="misty"><input type="checkbox" id="misty" name="misty">
+                    <input type="checkbox" id="misty" name="misty"><input type="checkbox" id="misty" name="misty"> OR <span class="skill">2nd Level Spell Slot</span>
+                    
+                    <br><span class="spelldet">Range:</span> Self <br>
+                        <span class="spelldet">Components:</span> &nbsp;&nbsp;<ion-icon name="chatbox-ellipses"></ion-icon> <br>
+                        <span class="spelldet">Duration:</span> Instant</p>
+
+                <p class="bonreact"> <span class="action">Hunter's Mark</span> <span class="source">Always Prepared</span><br>
+                        You choose a creature you can see within range and mystically mark it as your quarry. Until the spell ends, you deal an extra 1d6 damage to the target whenever you hit 
+                        it with a weapon attack, and you have advantage on any Wisdom (Perception) or Wisdom (Survival) check you make to find it. If the target drops to 0 hit points before 
+                        this spell ends, you can use a bonus action on a subsequent turn of yours to mark a new creature.<br><br>
+                    <span class="upcast">At Higher Levels.</span><br>
+                        When you cast this spell using a spell slot of <span class="skill">3rd or 4th level</span>, you can maintain your concentration on the spell for up to 8 hours. When you use a spell slot of <span class="skill">5th 
+                        level or higher</span>, you can maintain your concentration on the spell for up to 24 hours.<br><br>
+                    <span class="classfeat">Class Feature (1)</span><br>
+                        You are adept at focusing your ire on a single foe.  You always have hunter’s mark prepared, and it doesn’t count against the number of spells you can 
+                        prepare.  Moreover, you don’t have to concentrate on the spell once you cast it; it lasts for its full duration, until you end it as a bonus action, or until you are 
+                        incapacitated.<br><br>
+                    <span class="classfeat">Improved Hunter's Mark (9)</span><br> hunter’s mark deals an extra 1d8 damage to its target, rather than 1d8.</span><br>
+                    <br><span class="cost">Cost:</span> <label for="misty"><span class="skill">1st Level Spell Slot</span>        
+                    <br><span class="spelldet">Range:</span> 90ft 
+                    <br><span class="spelldet">Components:</span> &nbsp;&nbsp;<ion-icon name="chatbox-ellipses"></ion-icon>
+                    <br><span class="spelldet">Duration:</span> <ion-icon name="medical"></ion-icon> Up to 1 hour</p>
+
+
+                
+                <p class="bonreact"> <span class="action">offhand atk.</span> Only usable if you take the Attack action and attack with a light melee weapon that you're holding in one hand. 
+                    <br><br>Perform a single attack with a different light melee weapon that
+                    you're holding in the other hand. You don't add your ability modifier to the damage of the bonus attack, unless that modifier is negative. If either weapon has the thrown 
+                    property, you can throw the weapon, instead of making a melee attack with it.</p>
+
+                
+                
+                </section>
+        </section>          
+         <section class="container" id="react">
+            <h2>react.</h2>
+            <section class="steps">
+                <p class="bonreact"><span class="action">admonish</span> <span class="source">Void Lore</span><br> 
+                    As a reaction when a creature you can see within 60 feet succeeds on an attack roll, an ability check, or a saving throw, make a lore check. On a success, the triggering 
+                    creature must reroll the d20 and use the lower roll.
+                <br><br><span class="spelldet">Cost:</span> 1 stress</p>
+
+                <p class="bonreact"><span class="action">defend</span> <span class="source">Void Lore</span><br> 
+                    When targeted by an attack from an attacker that you can see, or by an effect that forces a saving throw with which you are not proficient from an attacker or source that 
+                    you can see, make a lore check. On a success, increase your armor class by an amount equal to your proficiency bonus until the start of your next turn, or add your 
+                    proficiency bonus to the total of your next saving throw.
+
+                <br><br><span class="spelldet">Cost:</span> 1 stress
+                <br><span class="spelldet">NOTE:</span> Does not spend reaction.</p>
+
+                <p class="bonreact"><span class="action">opportunity attack</span><br> 
+                    In a fight, everyone is constantly watching for enemies to drop their guard. You can rarely move heedlessly past your foes without putting yourself in danger; doing so 
+                    provokes an opportunity attack.<br><br>
+                    You can make an opportunity attack when a hostile creature that you can see moves out of your reach. To make the opportunity attack, you use your reaction to make one melee 
+                    attack against the provoking creature. The attack interrupts the provoking creature's movement, occurring right before the creature leaves your reach.<br><br>
+                    You can avoid provoking an opportunity attack by taking the Disengage action. You also don't provoke an opportunity attack when you teleport or when someone or something 
+                    moves you without using your movement, action, or reaction. For example, you don't provoke an opportunity attack if an explosion hurls you out of a foe's reach or if gravity 
+                    causes you to fall past an enemy.<br><br>
+                <span class="source">Source: PHB, page 195. Available in the SRD and the Basic Rules.</span></p>
+            </section>
+        </section>
+    </section>
+    </div>
+
+        <!--
+        <section class="container" id="lores">
+            <h2>lores.</h2>
+            <section class="steps">
+                <p><span class="action">admonish.</span> As a reaction when a creature you can see within 60 feet succeeds on an attack roll, an ability check, or a saving throw, make a lore check. On a success, the triggering creature must reroll the d20 and use the lower roll. 
+                 <br><br><span class="upcast">Cost:</span> 1 stress point.</section></section>
+        </section> -->
+        
+        <!-- CLASS ACTIONS -->
+        <!-- WIDE ACTION BOX -->
+        <section class="wide-container" id="class">
+            <h2>class.</h2>
+            <section class="widesteps">
+                <p class="classact"><span class="action" id="uncannyaffliction">Uncanny Affliction</span> <span class="source">Fey Wanderer 6 (HB)</span><br>
+                    When you take the attack action, you may <span class="dmgdie">choose to replace one weapon attack</span> in exchange for inflicting 
+                    one of the following effects against a target.
+                    <br><br>
+                    <span class="skill">Brightened.</span>The target must make an Intelligence saving throw. On a failure, the target has 
+                            disadvantage on ranged attacks until the start of your next turn as shimmering sparks float through its 
+                            field of view.<br>
+                    <span class="skill">Flipped Vision.</span>The target has disadvantage on Acrobatics and Athletics checks and Dexterity saving 
+                            throws until the start of your next turn as its world appears to be turned upside down
+                            <br>
+                    <span class="skill">Monochrome.</span>The target must make an Intelligence saving throw. On a failure, the target has 
+                            disadvantage on Wisdom (Perception) checks and Wisdom saving throws until the start of your next 
+                            turn as its vision appears as if through colored glass.<br>
+                    <span class="skill">Mind Fog.</span>The target must make an Intelligence saving throw. On a failure, the target has 
+                            disadvantage on its next attack roll as it finds itself unable to focus or concentrate on its actions
+                        <br><br><span class="source">Source: Fey Wanderer Homebrew.</span></p>
+                </section></section>
+                </section>
+                
+                </article>
+
+    <footer><h4><i class="fa-solid fa-dragon"></i></h4></footer>
+                <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    </body>
+</html>
+
+<!-- UNCANNY AFF. LIST VER.
+<ul>
+                            <li><span class="skill">Brightened.</span>The target must make an Intelligence saving throw. On a failure, the target has 
+                                disadvantage on ranged attacks until the start of your next turn as shimmering sparks float through its 
+                                field of view.</li>
+                            <li><span class="skill">Flipped Vision.</span>The target has disadvantage on Acrobatics and Athletics checks and Dexterity saving 
+                                throws until the start of your next turn as its world appears to be turned upside down
+                                </li>
+                            <li><span class="skill">Monochrome.</span>The target must make an Intelligence saving throw. On a failure, the target has 
+                                disadvantage on Wisdom (Perception) checks and Wisdom saving throws until the start of your next 
+                                turn as its vision appears as if through colored glass.</li>
+                            <li><span class="skill">Mind Fog.</span>The target must make an Intelligence saving throw. On a failure, the target has 
+                                disadvantage on its next attack roll as it finds itself unable to focus or concentrate on its actions</li>
+                        </ul>
+
+-->
+
+<!-- DEFUNCT TABLE
+
+            <section class="wide-container" id="act">
                 <h2>actions.</h2>
                 <section class="widesteps">
                     <p> 
                         <table>
                             <tr>
-                                <td><p><span class="action">attack</span>  The most common action to take in combat is the Attack action, whether you are swinging a sword, firing an arrow from a bow,
+                                <td><p><span class="action">attack</span>  <br>The most common action to take in combat is the Attack action, whether you are swinging a sword, firing an arrow from a bow,
                                     or brawling with your fists.</p>
-                            <br><h6 class="source">Source: PHB, page 192. Available in the SRD and the Basic Rules.</h6></td>
-                            <!-- -->
-                                <td><p><span class="action">dodge</span>  When you take the Dodge action, you focus entirely on avoiding attacks. Until the start of your next turn, any attack roll 
-                                    made against you has disadvantage if you can see the attacker, and you make <span class="skill">Dexterity</span> saving throws with advantage. You lose this benefit if you are incapacitated (as explained in 
+                            <br><h6 class="source">Source: PHB, page 192.   </h6></td>
+
+                                <td><p><span class="action">dodge</span>  <br>When you take the Dodge action, you focus entirely on avoiding attacks. Until the start of your next turn, any attack roll 
+                                    made against you has disadvantage if you can see the attacker, and you make <span class="skill">Dexterity Saving Throws</span> with advantage. You lose this benefit if you are incapacitated (as explained in 
                                     the appendix) or if your speed drops to 0.</p>
-                                <br><br><h6 class="source">Source: PHB, page 192. Available in the SRD and the Basic Rules.</h6></td></td>
-                            <!-- -->
-                                <td><p><span class="action">disengage</span>  If you take the Disengage action, your movement doesn't provoke opportunity attacks for the rest of the turn.</p>
-                                <br><br><h6 class="source">Source: PHB, page 192. Available in the SRD and the Basic Rules.</h6></td></td>
-                                <td><p><span class="action">dash</span>  When you take the Dash action, you gain extra movement for the current turn. The increase equals your speed, after applying any 
+                                <br><br><h6 class="source">Source: PHB, page 192.   </h6></td></td>
+
+                                <td><p><span class="action">disengage</span>  <br>If you take the Disengage action, your movement doesn't provoke opportunity attacks for the rest of the turn.</p>
+                                <br><br><h6 class="source">Source: PHB, page 192.   </h6></td></td>
+                                <td><p><span class="action">dash</span>  <br>When you take the Dash action, you gain extra movement for the current turn. The increase equals your speed, after applying any 
                                     modifiers. With a speed of 30 feet, for example, you can move up to 60 feet on your turn if you dash.
                                     Any increase or decrease to your speed changes this additional movement by the same amount. If your speed of 30 feet is reduced to 15 feet, for instance, you can move up to 30 
                                     feet this turn if you dash.</p>
-                                    <br><h6 class="source">Source: PHB, page 192. Available in the SRD and the Basic Rules.</h6></td>
-                            <!---->
-                                <td><p><span class="action">hide</span> When you take the Hide action, you make a <span class="skill">Dexterity (Stealth)</span> check in an attempt to hide, following the rules in chapter 7 for hiding. If you 
+                                    <br><h6 class="source">Source: PHB, page 192.   </h6></td>
+
+                                <td><p><span class="action">hide</span> <br>When you take the Hide action, you make a <span class="skill">Dexterity (Stealth)</span> check in an attempt to hide, following the rules in chapter 7 for hiding. If you 
                                     succeed, you gain certain benefits, as described in the "Unseen Attackers and Targets" section in the Player's Handbook.</p>
-                                    <br><h6 class="source">Source: PHB, page 192. Available in the SRD and the Basic Rules.</h6></td>
+                                    <br><h6 class="source">Source: PHB, page 192.   </h6></td>
                             </tr>
-                            <!-- -->
+
                             <tr>
-                                <td><p><span class="action">disarm</span> A creature can use a weapon attack to knock a weapon or another item from a target's grasp. The attacker makes an attack roll contested by the 
+                                <td><p><span class="action">disarm</span> <br>A creature can use a weapon attack to knock a weapon or another item from a target's grasp. The attacker makes an attack roll contested by the 
                                     target's  <span class="skill">Strength</span> (Athletics) check or <span class="skill">Dexterity (Acrobatics)</span> check. If the attacker wins the contest, the attack causes no damage or other ill effect, but the defender drops the 
                                     item. The attacker has disadvantage on its attack roll if the target is holding the item with two or more hands. The target has advantage on its ability check if it is larger than the 
                                     attacking creature, or disadvantage if it is smaller.</p>
                                 <br><h6 class="source">Source: DMG, page 271
                                     <br><br>This action is an optional addition to the game, from the optional / variant rule Action Options.</h6>
                                 </h6></td>
-                                <td><p><span class="action">help</span>You can lend your aid to another creature in the completion of a task. When you take the Help action, the creature you aid gains advantage on the next ability check it makes to 
+                                <td><p><span class="action">help</span><br>You can lend your aid to another creature in the completion of a task. When you take the Help action, the creature you aid gains advantage on the next ability check it makes to 
                                     perform the task you are helping with, provided that it makes the check before the start of your next turn.<br><br>Alternatively, you can aid a friendly creature in attacking a creature within 5 feet of you. You feint, distract the target, or in some other way team up to make your ally's attack
                                      more effective. If your ally attacks the target before your next turn, the first attack roll is made with advantage.</p>
-                                     <br><h6 class="source">Source: PHB, page 192. Available in the SRD and the Basic Rules.</h6></td>
-                                <!-- -->
-                                <td><p><span class="action">Shove</span> Using the Attack action, you can make a special melee attack to shove a creature, either to knock it prone or push it away from you. If you're 
+                                     <br><h6 class="source">Source: PHB, page 192.   </h6></td>
+
+                                <td><p><span class="action">Shove</span> <br>Using the Attack action, you can make a special melee attack to shove a creature, either to knock it prone or push it away from you. If you're 
                                     able to make multiple attacks with the Attack action, this attack replaces one of them.
                                     <br><br>
                                     The target of your shove must be no more than one size larger than you, and it must be within your reach. You make a  <span class="skill">Strength (Athletics)</span> check contested by the target's 
                                      <span class="skill">Strength (Athletics)</span> or <span class="skill">Dexterity (Acrobatics)</span> check (the target chooses the ability to use). You succeed automatically if the target is incapacitated. If you succeed, you either 
                                     knock the target prone or push it 5 feet away from you.</p>
-                                    <br><h6 class="source">Source: PHB, page 195. Available in the SRD and the Basic Rules.</h6></td>
-                                <!-- -->
-                                <td><p><span class="action">grapple</span>When you want to grab a creature or wrestle with it, you can use the Attack action to make a special melee attack, a grapple. If you're able to 
+                                    <br><h6 class="source">Source: PHB, page 195.   </h6></td>
+
+                                <td><p><span class="action">grapple</span><br>When you want to grab a creature or wrestle with it, you can use the Attack action to make a special melee attack, a grapple. If you're able to 
                                     make multiple attacks with the Attack action, this attack replaces one of them. The target of your grapple must be no more than one size larger than you, and it must be within your
                                      reach.
                                     <br><br>
                                     Using at least one free hand, you try to seize the target by making a grapple check, a  <span class="skill">Strength (Athletics)</span> check contested by the target's  <span class="skill">Strength (Athletics)</span> or 
                                     <span class="skill">Dexterity (Acrobatics)</span> check (the target chooses the ability to use). You succeed automatically if the target is incapacitated. If you succeed, you subject the target to the grappled
                                      condition (see the appendix). The condition specifies the things that end it, and you can release the target whenever you like (no action required).</p>
-                                    <br><h6 class="source">Source: PHB, page 19. Available in the SRD and the Basic Rules.</h6></td>
-                                <td><p><span class="action">stabilize</span> You can use your action to administer first aid to an unconscious creature and attempt to stabilize it, which requires a successful 
+                                    <br><h6 class="source">Source: PHB, page 19.   </h6></td>
+                                <td><p><span class="action">stabilize</span> <br>You can use your action to administer first aid to an unconscious creature and attempt to stabilize it, which requires a successful 
                                     DC 10 <span class="skill">Wisdom (Medicine)</span> check.
                                 <br><br>
                                     A stable creature doesn't make death saving throws, even though it has 0 hit points, but it does remain unconscious. The creature stops being stable, and must start making death 
                                     saving throws again, if it takes any damage. A stable creature that isn't healed regains 1 hit point after 1d4 hours.</p>
-                                    <br><h6 class="source">Source: PHB, page 192. Available in the SRD and the Basic Rules.</h6></td>
+                                    <br><h6 class="source">Source: PHB, page 192.   </h6></td>
                             </tr></table>
-                    </p></section></section>
-         <!-- CLASS/BONUS/REACT BOXES -->               
-        <section class="container" id="bonus">
-            <h2>bonus.</h2>
-            <section class="steps">
-                <p> <span class="action">offhand atk.</span> Only usable if you take the Attack action and attack with a light melee weapon that you're holding in one hand. 
-                    <br>&nbsp;Perform a single attack with a different light melee weapon that
-                    you're holding in the other hand. You don't add your ability modifier to the damage of the bonus attack, unless that modifier is negative. If either weapon has the thrown 
-                    property, you can throw the weapon, instead of making a melee attack with it.</p>
-                
-                </section>
-        </section>
-        <section class="container" id="react">
-            <h2>react.</h2>
-            <section class="steps">
-                <p> <span class="action">oppoutunity atk.</span> Make one melee attack against the provoking creature. The attack interrupts the provoking creature's movement, occurring right 
-                    before the creature leaves your reach. Creatures don't provoke an opportunity attack when they teleport or when someone or something moves them without using their movement, 
-                    action, or reaction. </p>
-            </section>
-        </section>
-        <section class="container" id="lores">
-            <h2>lores.</h2>
-            <section class="steps">
-                <p><span class="action">admonish.</span> As a reaction when a creature you can see within 60 feet succeeds on an attack roll, an ability check, or a saving throw, make a lore check. On a success, the triggering creature must reroll the d20 and use the lower roll. 
-                 <br><br><span class="upcast">Cost:</span> 1 stress point.</section></section>
-        </section>
-        </section>
-        <!-- CLASS ACTIONS -->
-        <!-- WIDE ACTION BOX -->
-        <section class="wide-container" id="act">
-            <h2>class.</h2>
-            <section class="widesteps">
-                <p><span class="action">channel divinity.</span> At <strong>2nd level</strong>, you gain the ability to channel divine energy directly from your deity, using that energy 
-                    to fuel magical effects. You start with two such effects: Turn Undead and an effect determined by your domain. Some domains grant you additional 
-                    effects as you advance in levels, as noted in the domain description. 
-                    <br><br>When you use your Channel Divinity, you choose which effect to create. You 
-                    must then finish a short or long rest to use your Channel Divinity again.
-                    <br><br>Some Channel Divinity effects require saving throws. When you use such an effect from this class, the DC equals your cleric spell save DC.
-                    <br><br>
-                    <span class="upcast">Beginning at 6th level,</span> you can use your Channel Divinity twice between rests, and beginning at 18th level, you can use it three times between rests. When you finish a short or long rest, you regain your expended uses </section></section>
-    </article>
-    <footer><h4><i class="fa-solid fa-dragon"></i></h4></footer>
-
-    </body>
-</html>
+                    </p></section></section> -->
